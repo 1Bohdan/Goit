@@ -1,0 +1,38 @@
+.conteiner{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', 'Open sans', sans-serif;
+    
+}
+.navigation{
+    display: block;
+    float: right;
+    font-size: 14px;
+    margin-top: 45px;
+    
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 18px;
+    
+}
+a:hover{
+    color: #1abc9c;
+}
+h1{
+    margin-top: 38px;
+}

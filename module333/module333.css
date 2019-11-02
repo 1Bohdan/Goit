@@ -1,0 +1,89 @@
+body, p, button {
+    font-family: 'Playfair Display', serif;
+    font-style: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #626262;
+    text-align: center;
+}
+
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 75px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+    padding-left: 40px;
+
+
+}
+.navigation{
+    text-transform: uppercase;
+
+}
+li:hover{
+    color: #03a9f4;
+
+}
+.posts-wrap{
+    font-size: 0;
+}
+.post{
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    font-size: 14px;
+    margin-bottom: 130px;
+    text-align: left;
+}
+.post:nth-child(even){
+    margin-right: 0;
+}
+.post .category{
+    font: 300 14px 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    margin-top: 26px;
+    margin-bottom: 30px;
+    margin-right: 350px;
+
+}
+.post h3{
+    font-size: 30px;
+    margin-bottom: 35px;
+    text-align: left;
+
+
+
+}
+.post img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.post p{
+    text-align: left;
+}
+.btn-more{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 1px solid;
+    padding:20px 35px ;
+    margin-bottom: 75px;
+}
+.post:nth-last-child(-n+2) { 
+    margin-bottom: 55px;
+
+} 
